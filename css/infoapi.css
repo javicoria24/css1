@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* HEADER */
+nav{
+    background-color: #4472de;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index:1;
+    position: relative;
+
+}
+.enlace-inicio{
+    position: absolute;
+    padding: 15px 50px;
+}
+.logo{
+    height: 50px;
+}
+ul {
+    /* list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+     */
+    float: right;
+    margin: O 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav ul li a{   
+    padding: 10px;
+    background-color: #ABC4FF;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 255, 0.418);
+}
+
+h1{
+    text-align: center;
+    
+    color:black;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 55px;
+    background-color: lightblue;
+    margin-bottom: 2%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.image-container {
+    display: flex;
+}
+.image-container img {
+    width: 95%;
+}
+.contenedor {
+    padding: 10px;
+    box-shadow: 0px 1px 1px 1px #000;
+}
+
+p, h2{
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 5.5rem;   
+    padding: 10px;
+    text-align: center;
+    background-color: #4472de;
+    color: white;
+}
